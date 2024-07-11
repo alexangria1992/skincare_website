@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => {
-  return <textarea name='' id='' className='textarea'></textarea>;
+  return <div>home</div>;
 };
 
 export default Home;
