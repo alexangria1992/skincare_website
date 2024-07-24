@@ -1,7 +1,17 @@
-import React from 'react';
+'use client';
+
+import { motion } from 'framer-motion';
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { delay: 2 } }}
+      className=' min-h-screen flex items-center overflow-x-hidden'
+    >
+      contact page
+    </motion.section>
+  );
 };
 
 export default Contact;

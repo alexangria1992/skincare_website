@@ -1,7 +1,17 @@
+'use client';
+import { motion } from 'framer-motion';
 import React from 'react';
 
 const Home = () => {
-  return <div>home</div>;
+  return (
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { delay: 2 } }}
+      className=' min-h-screen flex items-center overflow-x-hidden'
+    >
+      home
+    </motion.section>
+  );
 };
 
 export default Home;
